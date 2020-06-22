@@ -1,6 +1,3 @@
-//personality trait + color
-//this function will give user a color
-
 const personalityTrait = (trait) => {
     switch(trait) {
         case 'simple': return 'The color you should choose is white.' ;
