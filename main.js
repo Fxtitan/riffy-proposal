@@ -1,6 +1,6 @@
 //Linked function files//
 const personalityTrait = require('./personality-trait.js')
-// const timeIsMoney = require('./.js')
+const timeIsMoney = require('./budget.js')
 
 //Global User Inputs//
 const traits = getInput(0);
@@ -20,6 +20,8 @@ switch(traits) {
     case 'reliable': return console.log(personalityTrait(traits));
     default:   return console.log('sigh');
 }
+
+
 
 //HELPER FUNCTION
 function getInput(i) {
